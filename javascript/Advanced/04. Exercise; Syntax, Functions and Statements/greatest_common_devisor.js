@@ -1,4 +1,4 @@
-function GreatestCommonDevisor(xf, y) {
+function GreatestCommonDevisor(x, y) {
     while (y) {
         let t = y;
         y = x % y;
