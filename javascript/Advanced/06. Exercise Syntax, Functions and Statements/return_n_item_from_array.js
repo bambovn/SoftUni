@@ -7,29 +7,28 @@ function nElement(list, index) {
         result.push(list[i])
     }
 
-    console.log(result)
-    console.log(typeof (result))
+    return result
 
 }
 
-nElement(['5',
+console.log(nElement(['5',
     '20',
     '31',
     '4',
     '20'],
     2
-)
-nElement(['dsa',
+))
+console.log(nElement(['dsa',
     'asd',
     'test',
     'tset'],
     2
-)
+))
 
-nElement(['1',
+console.log(nElement(['1',
     '2',
     '3',
     '4',
     '5'],
     6
-)
+))
