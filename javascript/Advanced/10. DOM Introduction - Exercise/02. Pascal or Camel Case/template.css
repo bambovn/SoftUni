@@ -14,7 +14,9 @@ form div {
     margin: 15px 0;
 }
 
-form div label, form div, input {
+form div label,
+form div,
+input {
     display: block;
     width: 100%;
 }
