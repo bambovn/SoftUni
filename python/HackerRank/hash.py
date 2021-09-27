@@ -1,8 +1,5 @@
-a = 2
+n = int(input())
 
-b = (1, 2)
+tpl = tuple(list(map(int, input().split())))
 
-
-
-
-print(hash(b))
+print(hash(tpl))
