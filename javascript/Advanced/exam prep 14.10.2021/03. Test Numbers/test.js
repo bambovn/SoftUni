@@ -1,10 +1,11 @@
-const { expect } = require("chai")
+const { expect, assert } = require("chai")
 const testNumbers = require('./testNumbers')
 
 describe('Exam unit test', () => {
 
     describe('Test 1 ', () => {
         it('Test sum functionality', () => {
+            assert(testNumbers.sumNumbers([1,2],))
             expect(testNumbers.sumNumbers(1, '1')).to.be.undefined;
             expect(testNumbers.sumNumbers(-1, 1)).to.equals('0.00');
             expect(testNumbers.sumNumbers('a', 1)).to.be.undefined;
